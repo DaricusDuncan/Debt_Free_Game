@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC2CF1F9218AB9630064916C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2CF1F8218AB9630064916C /* main.cpp */; };
+		DC2CF20B218AB99A0064916C /* Janitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2CF1FF218AB9990064916C /* Janitor.cpp */; };
+		DC2CF20C218AB99A0064916C /* Expense.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2CF200218AB9990064916C /* Expense.cpp */; };
+		DC2CF20D218AB99A0064916C /* DFSGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2CF202218AB9990064916C /* DFSGame.cpp */; };
+		DC2CF20E218AB99A0064916C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2CF204218AB9990064916C /* main.cpp */; };
+		DC2CF20F218AB99A0064916C /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = DC2CF205218AB99A0064916C /* Makefile */; };
+		DC2CF210218AB99A0064916C /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2CF206218AB99A0064916C /* Player.cpp */; };
+		DC2CF211218AB99A0064916C /* Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2CF207218AB99A0064916C /* Utilities.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +30,18 @@
 
 /* Begin PBXFileReference section */
 		DC2CF1F5218AB9630064916C /* Debt_Free_Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Debt_Free_Game; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC2CF1F8218AB9630064916C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DC2CF1FF218AB9990064916C /* Janitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Janitor.cpp; sourceTree = "<group>"; };
+		DC2CF200218AB9990064916C /* Expense.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Expense.cpp; sourceTree = "<group>"; };
+		DC2CF201218AB9990064916C /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		DC2CF202218AB9990064916C /* DFSGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DFSGame.cpp; sourceTree = "<group>"; };
+		DC2CF203218AB9990064916C /* Janitor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Janitor.hpp; sourceTree = "<group>"; };
+		DC2CF204218AB9990064916C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DC2CF205218AB99A0064916C /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DC2CF206218AB99A0064916C /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		DC2CF207218AB99A0064916C /* Utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utilities.cpp; sourceTree = "<group>"; };
+		DC2CF208218AB99A0064916C /* Utilities.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Utilities.hpp; sourceTree = "<group>"; };
+		DC2CF209218AB99A0064916C /* DFSGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DFSGame.hpp; sourceTree = "<group>"; };
+		DC2CF20A218AB99A0064916C /* Expense.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Expense.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +74,18 @@
 		DC2CF1F7218AB9630064916C /* Debt_Free_Game */ = {
 			isa = PBXGroup;
 			children = (
-				DC2CF1F8218AB9630064916C /* main.cpp */,
+				DC2CF202218AB9990064916C /* DFSGame.cpp */,
+				DC2CF209218AB99A0064916C /* DFSGame.hpp */,
+				DC2CF200218AB9990064916C /* Expense.cpp */,
+				DC2CF20A218AB99A0064916C /* Expense.hpp */,
+				DC2CF1FF218AB9990064916C /* Janitor.cpp */,
+				DC2CF203218AB9990064916C /* Janitor.hpp */,
+				DC2CF204218AB9990064916C /* main.cpp */,
+				DC2CF205218AB99A0064916C /* Makefile */,
+				DC2CF206218AB99A0064916C /* Player.cpp */,
+				DC2CF201218AB9990064916C /* Player.hpp */,
+				DC2CF207218AB99A0064916C /* Utilities.cpp */,
+				DC2CF208218AB99A0064916C /* Utilities.hpp */,
 			);
 			path = Debt_Free_Game;
 			sourceTree = "<group>";
@@ -118,7 +146,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC2CF1F9218AB9630064916C /* main.cpp in Sources */,
+				DC2CF20F218AB99A0064916C /* Makefile in Sources */,
+				DC2CF20C218AB99A0064916C /* Expense.cpp in Sources */,
+				DC2CF210218AB99A0064916C /* Player.cpp in Sources */,
+				DC2CF20D218AB99A0064916C /* DFSGame.cpp in Sources */,
+				DC2CF20E218AB99A0064916C /* main.cpp in Sources */,
+				DC2CF20B218AB99A0064916C /* Janitor.cpp in Sources */,
+				DC2CF211218AB99A0064916C /* Utilities.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
