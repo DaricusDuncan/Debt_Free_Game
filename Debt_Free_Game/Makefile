@@ -1,5 +1,5 @@
-debtSnowball: main.o DFSGame.o Janitor.o Player.o Expense.o Utilities.o
-	g++ -std=c++0x main.o DFSGame.o Janitor.o Player.o Expense.o Utilities.o -o debtSnowball
+debtSnowball: main.o DFSGame.o Janitor.o Player.o Expense.o DFGValidators.o
+	g++ -std=c++0x main.o DFSGame.o Janitor.o Player.o Expense.o DFGValidators.o -o debtSnowball
 
 main.o: main.cpp
 	g++ -c -std=c++0x main.cpp
@@ -16,8 +16,8 @@ Player.o: Player.cpp Player.hpp
 Expense.o: Expense.cpp Expense.hpp
     g++ -c -std=c++0x Expense.cpp
 
-Utilities.o: Utilities.cpp Utilities.hpp
-    g++ -c -std=c++0x Utilities.cpp
+DFGValidators.o: DFGValidators.cpp DFGValidators.hpp
+    g++ -c -std=c++0x DFGValidators.cpp
 
 clean:
 	rm *.o debtSnowball

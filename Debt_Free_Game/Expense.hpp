@@ -11,8 +11,7 @@
 
 #include <iostream>
 
-class Expense
-{
+class Expense{
 private:
     std::string name;
     float balance;

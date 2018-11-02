@@ -8,45 +8,37 @@
 
 #include "Expense.hpp"
 
-Expense::Expense()
-{
+Expense::Expense(){
     balance = 0;
     payment = 0;
 }
 
-Expense::Expense(std::string _name, float _balance, float _payment)
-{
+Expense::Expense(std::string _name, float _balance, float _payment){
     name = _name;
     balance = _balance;
     payment = _payment;
 }
 
-void Expense::updatePayment(float _newPayment)
-{
+void Expense::updatePayment(float _newPayment){
     payment = _newPayment;
 }
 
-float Expense::getPayment()
-{
+float Expense::getPayment(){
     return payment;
 }
 
-void Expense::updateBalance(float newBalance)
-{
+void Expense::updateBalance(float newBalance){
     balance = newBalance;
 }
 
-float Expense::getBalance()
-{
+float Expense::getBalance(){
     return balance;
 }
 
-void Expense::isExpensePaid(bool isBillPaid)
-{
+void Expense::isExpensePaid(bool isBillPaid){
     paid = isBillPaid;
 }
 
-Expense::~Expense()
-{
+Expense::~Expense(){
     
 }

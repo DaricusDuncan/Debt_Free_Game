@@ -11,11 +11,10 @@
 
 #include <iostream>
 
-class DFGValidators
-{
+class DFGValidators{
 private:
 public:
-    DFGVavlidators();
+    DFGValidators();
     ~DFGValidators();
 };
 

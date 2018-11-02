@@ -8,8 +8,7 @@
 
 #include "Janitor.hpp"
 
-Janitor::Janitor()
-{
+Janitor::Janitor(){
     setJobTitle("Janitor");
     
     //Janitor Finances
@@ -42,7 +41,6 @@ Janitor::Janitor()
     updateTotalOfUnpaidBills(0);
 }
 
-Janitor::~Janitor()
-{
+Janitor::~Janitor(){
     
 }

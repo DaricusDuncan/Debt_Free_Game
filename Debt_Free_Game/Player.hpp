@@ -13,8 +13,7 @@
 #include <vector>
 #include "Expense.hpp"
 
-class Player
-{
+class Player{
 private:
     int playerAge;
     std::string jobTitle;

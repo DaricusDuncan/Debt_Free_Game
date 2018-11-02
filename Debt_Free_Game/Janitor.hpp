@@ -12,8 +12,7 @@
 #include <iostream>
 #include "Player.hpp"
 
-class Janitor : public Player
-{
+class Janitor : public Player{
 private:
 public:
     Janitor();

@@ -15,10 +15,9 @@
 #include <ctime>
 #include "Player.hpp"
 #include "Janitor.hpp"
-#include "Utilities.hpp"
+#include "DFGValidators.hpp"
 
-class DFSGame
-{
+class DFSGame{
 private:
     time_t t = time(NULL);
     tm* timePtr = localtime(&t);
