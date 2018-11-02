@@ -1,7 +1,16 @@
-# Project Title
+# Debt Free Snowball Game
 
-One Paragraph of project description goes here
-
+The Debt Free Snowball Game is a play on Dave Ramsey's 7 Baby Steps to debt freedom.
+  Baby Step #1: Save $1000 for an early emergency fund.
+  Baby Step #2: Pay off all debt except your home.
+  Baby Step #3: Beef up your emergency fund by saving 3 to 6 months worth of expenses.
+  Baby Step #4: Invest 15% of your income into retirement.
+  Baby Step #5: Fund College for children.
+  Baby Step #6: Pay off home early.
+  Baby Step #7: Build wealth and give.
+ 
+The object of this game is to simulate becoming debt free by following the above listed baby steps. Careful though, random events could happen that could impact your progress! 
+  
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
